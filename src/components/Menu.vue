@@ -1,6 +1,6 @@
 <template>
   <div class="Menu">
-    <table>
+    <table align="center">
       <tr>
         <td>menu 1</td>
         <td>menu 2</td>
@@ -23,4 +23,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.Menu{
+  border: 1px solid;
+  border-color: black;
+  margin: 5px;
+  
+}
+
+td {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 </style>

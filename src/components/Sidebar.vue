@@ -11,19 +11,25 @@
       <li><p>Section 8</p></li>
       <li><p>Section 9</p></li>
     </ul>
-  </div>  
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Sidebar',
+  name: "Sidebar",
   props: {
     // insira aqui as propriedades
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.Sidebar {
+  border: 1px solid;
+  border-color: black;
+  margin: 5px;
+  flex-shrink: 3;
+  width: 20%;
+}
 </style>
